@@ -1,0 +1,29 @@
+{
+    "name": "eeappdev/tidsbanken",
+    "description": "HTTP Macro for Tidsbanken API",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eeappdev\\Tidsbanken\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emil Enevoldsen",
+            "email": "github@eeapp.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "php": "^8.1",
+        "illuminate/support": "^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eeappdev\\Tidsbanken\\ServiceProvider"
+            ]
+        }
+    }
+}
