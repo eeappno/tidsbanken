@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Eeappdev\\Tidsbanken\\ServiceProvider"
+                "Eeappdev\\Tidsbanken\\TidsbankenServiceProvider"
             ]
         }
     }
